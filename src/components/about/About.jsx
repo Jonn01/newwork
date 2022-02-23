@@ -1,5 +1,4 @@
 import "./about.css";
-import Award from "../../img/bg2.jpg";
 
 const About = () => {
   return (
@@ -31,10 +30,8 @@ const About = () => {
           reader will be a good listener to be able to develop a readable
           content.
         </p>
-        <div className="a-award">
-          <img src={Award} alt="" className="a-award-img" />
-        </div>
       </div>
+
     </div>
   );
 };
